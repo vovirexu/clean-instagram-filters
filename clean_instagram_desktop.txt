@@ -1,5 +1,5 @@
 ! Title: Clean Instagram (Desktop)
-! Version: 1.0.0
+! Version: 1.1.0
 ! This list filters out all the slop from the Instagram web app, and only keeps the real social aspects, as it should be.
 
 ! Home Feed & Stories
@@ -10,3 +10,5 @@ www.instagram.com##div:nth-of-type(2) > span > div > a
 www.instagram.com##div:nth-of-type(5) > span > div > a > div
 ! More from Meta
 www.instagram.com##span:nth-of-type(2) > div > a > div
+! Story views
+www.instagram.com##div.x12svp7l.x1ey2m1c.x9f619.x78zum5.xdt5ytf.x18dl8mb.xtijo5x.x1o0tod.x13a6bvl.x1l90r2v.xv54qhq.xf7dkkf.x47corl.x10l6tqk
