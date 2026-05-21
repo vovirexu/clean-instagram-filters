@@ -1,0 +1,15 @@
+! Title: Clean Instagram (Mobile)
+! This list filters out all the slop from the Instagram web app, and only keeps the social aspects, as it should be.
+
+! Mobile filters
+! Create
+www.instagram.com##div.html-div.xdj266r.x14z9mp.xat24cr.x1lziwak.xexx8yu.xyri2b.x18d9i69.x1c1uobl.x9f619.x5lhr3w.xjbqb8w.x78zum5.x15mokao.x1ga7v0g.x16uus16.xbiv7yw.x1uhb9sk.x1plvlek.xryxfnj.x1c4vz4f.x2lah0s.xdt5ytf.xqjyukv.x1qjc9v5.x1oa3qoh.x1nhvcw1 > div.x78zum5.xl56j7k
+! Feed Stories
+www.instagram.com##div.x78zum5.x1y1aw1k.xrw5ot4.xwib8y2.x7coems.xfk6m8 > div
+! Home Feed
+www.instagram.com##div.html-div.xdj266r.x14z9mp.xat24cr.x1lziwak.xexx8yu.xyri2b.x18d9i69.x1c1uobl.x9f619.xjbqb8w.x78zum5.x15mokao.x1ga7v0g.x16uus16.xbiv7yw.x1uhb9sk.x1plvlek.xryxfnj.x1c4vz4f.x2lah0s.xdt5ytf.xqjyukv.x6s0dn4.x1oa3qoh.x1nhvcw1
+! Explore Feed
+www.instagram.com##div.x78zum5.xdt5ytf.x11lt19s.x1n2onr6.xph46j.x7x3xai.xsybdxg.x194l6zq
+www.instagram.com##div.x1qjc9v5.x972fbf.x10w94by.x1qhh985.x14e42zd.x9f619.x78zum5.xdt5ytf.x2lah0s.xln7xf2.xk390pu.xsdox4t.x14z9mp.xat24cr.x1lziwak.x1tfhste.xexx8yu.xyri2b.x18d9i69.x1c1uobl.x1n2onr6.x11njtxf
+! Reels
+www.instagram.com##div > div > div > div > div > div > div > div > div > div > div:nth-of-type(3)
