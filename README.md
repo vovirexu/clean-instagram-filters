@@ -1,4 +1,10 @@
-# Clean Instagram Filters
+<h1>
+  <img src="clean_instagram_logo.png" alt="logo" style="height: 1em; vertical-align: middle">
+  Clean Instagram Filters
+</h1>
+
+Content blocker ([Brave](https://brave.com/privacy-updates/10-custom-filter-lists/), [uBlock](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists), etc) filters lists to hide features from the Instagram web app
+
 Content blocker ([Brave](https://brave.com/privacy-updates/10-custom-filter-lists/), [uBlock](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists), etc) filters lists to hide features from the Instagram web app
 
 ## How to use?
