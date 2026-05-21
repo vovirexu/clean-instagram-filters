@@ -15,3 +15,5 @@ www.instagram.com##div.x1qjc9v5.x972fbf.x10w94by.x1qhh985.x14e42zd.x9f619.x78zum
 www.instagram.com##div:nth-of-type(3) > span > div > a
 ! Story Viewers List
 www.instagram.com##div.x1qnrgzn.x1cek8b2.xb10e19.x19rwo8q.x1lliihq.x193iq5w.xh8yej3
+! Threads
+www.instagram.com##div._ab18._at34._ab1b
