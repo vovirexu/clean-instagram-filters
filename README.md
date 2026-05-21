@@ -5,11 +5,11 @@ Content blocker ([Brave](https://brave.com/privacy-updates/10-custom-filter-list
 On your content filter's settings, add the following urls to the platform that applies.
 * Mobile:
   ```
-  https://github.com/vovirexu/clean-instagram-filters/blob/main/clean_instagram_mobile.txt
+  https://raw.githubusercontent.com/vovirexu/clean-instagram-filters/refs/heads/main/clean_instagram_mobile.txt
   ```
 * Dekstop:
   ```
-  https://github.com/vovirexu/clean-instagram-filters/blob/main/clean_instagram_desktop.txt
+  https://raw.githubusercontent.com/vovirexu/clean-instagram-filters/refs/heads/main/clean_instagram_desktop.txt
   ```
 
 ## Filters
