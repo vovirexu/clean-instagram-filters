@@ -6,7 +6,7 @@
 Content blocker ([Brave](https://brave.com/privacy-updates/10-custom-filter-lists/), [uBlock](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists), etc) filters lists to hide features from the Instagram web app
 
 ## How to use?
-On your content filter's settings, add the following urls to the platform that applies.
+On your content filter's settings, add the following urls to the platform that applies. Refresh your lists whenever there's an update to the file's code as Instagram's updates might break the lists' behavior.
 * Mobile:
   ```
   https://raw.githubusercontent.com/vovirexu/clean-instagram-filters/refs/heads/main/clean_instagram_mobile.txt
