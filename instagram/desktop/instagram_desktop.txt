@@ -1,6 +1,6 @@
 ! Title: Minimo for Instagram (Desktop)
 ! Version: 2.0.0
-! Description: A list of content-blocker filters for elements on the Instagram desktop web-app.
+! Description: A list of content-blocker filters for the Instagram desktop web-app.
 ! Homepage: https://github.com/vovirexu/minimo-social
 
 ! Home Feed & Stories
