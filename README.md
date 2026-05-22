@@ -1,28 +1,34 @@
 <h1>
-  <img src="clean_instagram_logo.png" alt="logo" style="height: 1em; vertical-align: middle">
-  Clean Instagram Filters
+  <img src="logo.png" alt="logo" style="height: 1em; vertical-align: middle">
+  Minimo
 </h1>
 
-Content blocker ([Brave](https://brave.com/privacy-updates/10-custom-filter-lists/), [uBlock](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists), etc) filters lists to hide features from the Instagram web app
+A maintained library of content-blocker filters for social media web-apps.
 
-## How to use?
-On your content filter's settings, add the following urls to the platform that applies. Refresh your lists whenever there's a change in the codebase as Instagram's updates might break the lists' behavior.
+Minimo's lists filter content using CSS selectors. They work with any application that supports the Adblock filter syntax, including [Brave](https://brave.com/privacy-updates/10-custom-filter-lists/) and [uBlock](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists).
+
+## Usage
+You can browse the repository and manually add the filters you want, updating them whenever there's a change to the codebase fixing outdated syntax. To do this automatically, if your content-blocker allows adding external lists, simply copy and paste the following `url` that applies.
+
+### Instagram
 * Mobile:
   ```
-  https://raw.githubusercontent.com/vovirexu/clean-instagram-filters/refs/heads/main/clean_instagram_mobile.txt
+  https://raw.githubusercontent.com/vovirexu/minimo-social/refs/heads/main/instagram/instagram_mobile.txt
   ```
-* Dekstop:
+* Desktop:
   ```
-  https://raw.githubusercontent.com/vovirexu/clean-instagram-filters/refs/heads/main/clean_instagram_desktop.txt
+  https://raw.githubusercontent.com/vovirexu/minimo-social/refs/heads/main/instagram/instagram_desktop.txt
   ```
-
-## Filters
-The filters are designed to prevent any type of doom-scrolling and maximize the use of the app in each platform, creating a clean and minimalist experience. The code is well documented so you can tune it to your liking.
-* Mobile and desktop:
-  * Home feed and stories
-  * Reels
-  * Explore
-* Mobile exclusive:
-  * Create
-* Desktop exclusive:
-  * More from Meta
+  ### Filters
+  * Mobile and desktop:
+    * Home feed and stories
+    * Reels
+    * Explore
+  * Mobile exclusive:
+    * Create
+  * Desktop exclusive:
+    * More from Meta
+   
+## Roadmap
+- [x] Instagram initial support
+- [ ] YouTube initial support
