@@ -6,7 +6,7 @@ A list of content-blocker filters for the Instagram web-app.
 ## Mobile:
   * **Full list:**
   ```
-  https://raw.githubusercontent.com/vovirexu/minimo-social/refs/heads/main/instagram/instagram_mobile.txt
+  https://raw.githubusercontent.com/vovirexu/minimo-social/refs/heads/main/instagram/mobile/instagram_mobile.txt
   ```
   * Home feed:
   ```
@@ -26,7 +26,7 @@ A list of content-blocker filters for the Instagram web-app.
 ## Desktop:
   * **Full list:**
   ```
-  https://raw.githubusercontent.com/vovirexu/minimo-social/refs/heads/main/instagram/instagram_desktop.txt
+  https://raw.githubusercontent.com/vovirexu/minimo-social/refs/heads/main/instagram/desktop/instagram_desktop.txt
   ```
   * Home feed:
   ```
