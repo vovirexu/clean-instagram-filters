@@ -1,5 +1,5 @@
 <h1>
-  <img src="logo.png" alt="logo" style="height: 1em; vertical-align: middle">
+  <img src="minimo-logo.png" alt="logo" style="height: 1em; vertical-align: middle">
   Minimo
 </h1>
 
