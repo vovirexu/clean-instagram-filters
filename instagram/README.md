@@ -33,6 +33,8 @@ A list of content-blocker filters for the Instagram web-app.
   https://raw.githubusercontent.com/vovirexu/minimo-social/refs/heads/main/instagram/mobile/instagram_mobile_notes.txt
   ```
   * Reels:
+  > [!WARNING]
+  > This removes all video-type content on the app, including stories with music. Currently working on a workaround.
   ```
   https://raw.githubusercontent.com/vovirexu/minimo-social/refs/heads/main/instagram/mobile/instagram_mobile_reels.txt
   ```
