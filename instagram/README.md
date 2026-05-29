@@ -1,7 +1,8 @@
 # Minimo for Instagram
 
 A list of content-blocker filters for the Instagram web-app.
-> "Full lists" contain all of the available filters in a single file.
+> [!NOTE]
+> "Full lists" provide the most minimal experience, basically only letting you check messages and see your profile.
   
 ## Mobile:
   * **Full list:**
