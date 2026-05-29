@@ -13,4 +13,6 @@ You can browse the repository and manually add the filters you want, updating th
    
 ## Roadmap
 - [x] Instagram initial support
+- [ ] Instagram full web and mobile support
+- [ ] Improve documentation
 - [ ] YouTube initial support

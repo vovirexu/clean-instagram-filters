@@ -1,35 +1,57 @@
 ! Title: Minimo for Instagram (Mobile)
-! Version: 2.1.0
+! Version: 2.2.0
 ! Description: A list of content-blocker filters for the Instagram mobile web-app.
 ! Homepage: https://github.com/vovirexu/minimo-social
+
+! Comments (list)
+www.instagram.com##div._ac6x._ac6y
+
+! Comments (replies)
+www.instagram.com##div.x1i10hfl.xjbqb8w.x1ejq31n.x18oe1m7.x1sy0etr.xstzfhl.x972fbf.x10w94by.x1qhh985.x14e42zd.x9f619.x1ypdohk.xt0psk2.x3ct3a4.xdj266r.x14z9mp.xat24cr.x1lziwak.xexx8yu.xyri2b.x18d9i69.x1c1uobl.x16tdsg8.x1hl2dhg.xggy1nq.x1a2a7pz.x87ps6o.x1d5wrs8
+
+! Comments ("for you" header)
+www.instagram.com##div.html-div.xdj266r.x14z9mp.x1lziwak.xexx8yu.xyri2b.x18d9i69.x1c1uobl.x9f619.xjbqb8w.x78zum5.x15mokao.x1ga7v0g.x16uus16.xbiv7yw.x1e56ztr.x1uhb9sk.x1plvlek.xryxfnj.x1c4vz4f.x2lah0s.x1q0g3np.xqjyukv.x1cy8zhl.x1oa3qoh.x1nhvcw1
+
+! Comments (add a comment)
+www.instagram.com##div.x6s0dn4.x78zum5.xl56j7k.xseoqlg.xh8yej3
+
+! Comments (previews)
+www.instagram.com##div.html-div.xdj266r.x14z9mp.x1lziwak.xexx8yu.xyri2b.x18d9i69.x1c1uobl.x9f619.xjbqb8w.x78zum5.x15mokao.x1ga7v0g.x16uus16.xbiv7yw.x12nagc.x1uhb9sk.x1plvlek.xryxfnj.x1c4vz4f.x2lah0s.x1q0g3np.xqjyukv.x6s0dn4.x1oa3qoh.x1nhvcw1
 
 ! Create (button)
 www.instagram.com##div.html-div.xdj266r.x14z9mp.xat24cr.x1lziwak.xexx8yu.xyri2b.x18d9i69.x1c1uobl.x9f619.x5lhr3w.xjbqb8w.x78zum5.x15mokao.x1ga7v0g.x16uus16.xbiv7yw.x1uhb9sk.x1plvlek.xryxfnj.x1c4vz4f.x2lah0s.xdt5ytf.xqjyukv.x1qjc9v5.x1oa3qoh.x1nhvcw1 > div.x78zum5.xl56j7k
 
-! Home feed (stories)
-www.instagram.com##div.x78zum5.x1y1aw1k.xrw5ot4.xwib8y2.x7coems.xfk6m8 > div
-
-! Home Feed (posts)
-www.instagram.com##div.html-div.xdj266r.x14z9mp.xat24cr.x1lziwak.xexx8yu.xyri2b.x18d9i69.x1c1uobl.x9f619.xjbqb8w.x78zum5.x15mokao.x1ga7v0g.x16uus16.xbiv7yw.x1uhb9sk.x1plvlek.xryxfnj.x1c4vz4f.x2lah0s.xdt5ytf.xqjyukv.x6s0dn4.x1oa3qoh.x1nhvcw1
-
 ! Explore (Feed)
 www.instagram.com##div.x78zum5.xdt5ytf.x11lt19s.x1n2onr6.xph46j.x7x3xai.xsybdxg.x194l6zq
+
 www.instagram.com##div.x1qjc9v5.x972fbf.x10w94by.x1qhh985.x14e42zd.x9f619.x78zum5.xdt5ytf.x2lah0s.xln7xf2.xk390pu.xsdox4t.x14z9mp.xat24cr.x1lziwak.x1tfhste.xexx8yu.xyri2b.x18d9i69.x1c1uobl.x1n2onr6.x11njtxf
+
+! Home feed (stories)
+www.instagram.com##div.x1njnjl6.xvbhtw8
+
+! Home feed (posts)
+www.instagram.com##div.html-div.xdj266r.x14z9mp.xat24cr.x1lziwak.xexx8yu.xyri2b.x18d9i69.x1c1uobl.x9f619.xjbqb8w.x78zum5.x15mokao.x1ga7v0g.x16uus16.xbiv7yw.x1uhb9sk.x1plvlek.xryxfnj.x1c4vz4f.x2lah0s.xdt5ytf.xqjyukv.x6s0dn4.x1oa3qoh.x1nhvcw1
+
+! Home feed (title)
+www.instagram.com##div.html-div.xdj266r.x14z9mp.xat24cr.x1lziwak.xexx8yu.xyri2b.x18d9i69.x1c1uobl.x9f619.xjbqb8w.x78zum5.x15mokao.x1ga7v0g.x16uus16.xbiv7yw.x1n2onr6.x1plvlek.xryxfnj.x1c4vz4f.x2lah0s.x1q0g3np.xqjyukv.x1pha0wt.x1oa3qoh.x1nhvcw1
+
+! Notes (inbox)
+www.instagram.com##div.x1c4vz4f.x2lah0s.xhjk10j.x6ikm8r.x10wlt62.xf7dkkf.xv54qhq
+
+! Notes (profile)
+www.instagram.com##div.x7wppnt
+
+! Reels (feed/removes all video)
+www.instagram.com##div.x5yr21d.x1uhb9sk.xh8yej3
 
 ! Reels (button)
 www.instagram.com##div:nth-of-type(3) > span > div > a
 
-! Reels (feed)
-www.instagram.com##div.x5yr21d.x1uhb9sk.xh8yej3
-
-! Story Viewers List
-www.instagram.com##div[aria-modal][role] > div > div > div[style] > div[style] > div > div
+! Story Viewers List (BROKEN: it also removes user lists from other parts of the app)
+! www.instagram.com##div[aria-modal][role] > div > div > div[style] > div[style] > div > div
 
 ! Threads (button)
 www.instagram.com##header > div > div > span[aria-describedby]
 
 ! Threads (usernames)
 www.instagram.com##div.html-div.xdj266r.x14z9mp.x1lziwak.xexx8yu.xyri2b.x18d9i69.x1c1uobl.x9f619.xjbqb8w.xtqikln.x3pnbk8.x15mokao.x1ga7v0g.x16uus16.xbiv7yw.x1uhb9sk.x1plvlek.xryxfnj.x1c4vz4f.x2lah0s.x1q0g3np.xqjyukv.x6s0dn4.x1oa3qoh.x1nhvcw1.x78zum5.xjl7jj.x1a02dak.xzueoph.xzboxd6
-
-! Notes
-www.instagram.com##div.x1c4vz4f.x2lah0s.xhjk10j.x6ikm8r.x10wlt62.xf7dkkf.xv54qhq
