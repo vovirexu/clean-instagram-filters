@@ -2,7 +2,7 @@
 
 A list of content-blocker filters for the Instagram web-app.
 > [!NOTE]
-> "Full lists" provide the most minimal experience, basically only letting you check messages and see your profile.
+> "Full lists" basically only let you check messages and see your profile.
   
 ## Mobile:
   * **Full list:**
@@ -52,21 +52,41 @@ A list of content-blocker filters for the Instagram web-app.
   ```
   https://raw.githubusercontent.com/vovirexu/minimo-social/refs/heads/main/instagram/desktop/instagram_desktop.txt
   ```
-  * Home feed:
+  * Comments:
   ```
-  ```
-  * Stories:
-  ```
-  ```
-  * Reels:
-  ```
-  ```
-  * Explore:
-  ```
+  https://raw.githubusercontent.com/vovirexu/minimo-social/refs/heads/main/instagram/mobile/instagram_desktop_comments.txt
   ```
   * Create:
   ```
+  https://raw.githubusercontent.com/vovirexu/minimo-social/refs/heads/main/instagram/mobile/instagram_desktop_create.txt
   ```
-  * "More from Meta" button:
+  * Explore:
   ```
+  https://raw.githubusercontent.com/vovirexu/minimo-social/refs/heads/main/instagram/mobile/instagram_desktop_explore.txt
+  ```
+  * Feed stories:
+  ```
+  https://raw.githubusercontent.com/vovirexu/minimo-social/refs/heads/main/instagram/mobile/instagram_desktop_feed_stories.txt
+  ```
+  * Home feed:
+  ```
+  https://raw.githubusercontent.com/vovirexu/minimo-social/refs/heads/main/instagram/mobile/instagram_desktop_home_feed.txt
+  ```
+  * Home sidebar:
+  ```
+  https://raw.githubusercontent.com/vovirexu/minimo-social/refs/heads/main/instagram/mobile/instagram_desktop_home_sidebar.txt
+  ```
+  * Misc:
+  ```
+  https://raw.githubusercontent.com/vovirexu/minimo-social/refs/heads/main/instagram/mobile/instagram_desktop_misc.txt
+  ```
+  * Notes:
+  ```
+  https://raw.githubusercontent.com/vovirexu/minimo-social/refs/heads/main/instagram/mobile/instagram_desktop_notes.txt
+  ```
+  * Reels:
+  > [!WARNING]
+  > This removes all video-type content on the app, including stories with music. Currently working on a workaround.
+  ```
+  https://raw.githubusercontent.com/vovirexu/minimo-social/refs/heads/main/instagram/mobile/instagram_desktop_reels.txt
   ```

@@ -3,12 +3,12 @@
   Minimo
 </h1>
 
-A maintained library of content-blocker filters for social media web-apps.
+Minimo helps you use social media wisely by filtering out distractions on your favorite apps.
 
-Minimo's lists filter content using CSS selectors. They work with any application that supports the Adblock filter syntax, including [Brave](https://brave.com/privacy-updates/10-custom-filter-lists/) and [uBlock](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists).
+Lists filter content using CSS selectors. They work with any application that supports the Adblock filter syntax.
 
 ## Usage
-You can browse the repository and manually add the filters you want, updating them whenever there's a change to the codebase. If your content-blocker supports external lists you can do this automatically by adding the `url` that applies.
+You can manually add the filters you want, if your content-blocker supports external lists you can do this automatically by adding the `url` for your use case. 
 * [Instagram](instagram/)
    
 ## Roadmap
@@ -16,3 +16,4 @@ You can browse the repository and manually add the filters you want, updating th
 - [ ] Instagram full web and mobile support
 - [ ] Improve documentation
 - [ ] YouTube initial support
+- [ ] YouTube full web and mobile support

@@ -1,0 +1,16 @@
+! Title: Minimo for Instagram (Desktop)
+! Version: 2.2.0
+! Description: Filter for reels in the Instagram desktop web-app.
+! Homepage: https://github.com/vovirexu/minimo-social
+
+! Button
+www.instagram.com##div:nth-of-type(2) > span > div > a
+
+! Videos
+
+
+! Profile
+www.instagram.com##div.x1ey2m1c.x78zum5.xdt5ytf.x5yr21d.x1eu7cjg.xhi6v0a.x13a6bvl.xv54qhq.x10l6tqk.x80663w.x1fn4h0r.x18d9i69
+
+! Buttons
+www.instagram.com##div.html-div.xdj266r.x14z9mp.xexx8yu.xyri2b.x18d9i69.x1c1uobl.x9f619.xjbqb8w.x78zum5.x15mokao.x1ga7v0g.x16uus16.xbiv7yw.x12nagc.x1uhb9sk.x1plvlek.xryxfnj.x1c4vz4f.x2lah0s.xdt5ytf.xqjyukv.x6s0dn4.x1oa3qoh.x13a6bvl.x1diwwjn.x1247r65
