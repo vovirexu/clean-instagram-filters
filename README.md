@@ -3,6 +3,9 @@
   Minimo
 </h1>
 
+> [!WARNING]
+> THIS PROJECT IS UNDERGOING A MASSIVE CODE REFACTORING. THE CODEBASE IS UNRELIABLE AT THE MOMENT.
+
 A maintained library of content-blocker filters for social media web-apps.
 
 Minimo's lists filter content using CSS selectors. They work with any application that supports the Adblock filter syntax, including [Brave](https://brave.com/privacy-updates/10-custom-filter-lists/) and [uBlock](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists).
