@@ -4,4 +4,4 @@
 ! Homepage: https://github.com/vovirexu/minimo-social
 
 ! Button
-www.instagram.com##div:nth-of-type(3) > span > div > a
+www.instagram.com##a[href="/reels/"]

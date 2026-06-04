@@ -3,20 +3,20 @@
 ! Description: Filters for comments in the Instagram desktop web-app.
 ! Homepage: https://github.com/vovirexu/minimo-social
 
-! Post page
-www.instagram.com##div.x9f619.x78zum5.xdt5ytf.x5yr21d.xexx8yu.xv54qhq.x1l90r2v.xf7dkkf.x10l6tqk.xh8yej3 > div.x78zum5.xdt5ytf.x1iyjqo2
+! Full comment rows on post detail page
+www.instagram.com##body:not(:has(article)) .x78zum5.xdt5ytf.x1iyjqo2 > div > div:not([class]):has(div.x1iyjqo2.x2lwn1j.xeuugli.xdt5ytf:has(a[href*="/c/"] time))
 
-! "For you" / post page
-www.instagram.com##div.html-div.x14z9mp.xat24cr.xexx8yu.xyri2b.x18d9i69.x1c1uobl.x9f619.xjbqb8w.x78zum5.x15mokao.x1ga7v0g.x16uus16.xbiv7yw.x14vqqas.x11hdunq.x1uhb9sk.x1plvlek.xryxfnj.x1c4vz4f.x2lah0s.xdt5ytf.xqjyukv.x1qjc9v5.x1oa3qoh.x1nhvcw1
+! "Add a comment..." input
+www.instagram.com##textarea[placeholder="Add a comment…"]:upward(3)
 
-! Profile
-www.instagram.com##ul._a9ym
+! Comment rows on feed
+www.instagram.com##li._a9zj:has(a[href*="/c/"])
 
-! Count
-www.instagram.com##span.x1ypdohk.x1s688f.x2fvf9.xe9ewy2
+! "Load more comments" icon
+www.instagram.com##svg[aria-label="Load more comments"]:upward(3)
 
-! For you
-www.instagram.com##ul._a9z6._a9za > div.html-div.xdj266r.x14z9mp.xat24cr.x1lziwak.xexx8yu.xyri2b.x18d9i69.x1c1uobl.x9f619.xjbqb8w.x78zum5.x15mokao.x1ga7v0g.x16uus16.xbiv7yw.x1uhb9sk.x1plvlek.xryxfnj.x1c4vz4f.x2lah0s.xdt5ytf.xqjyukv.x1qjc9v5.x1oa3qoh.x1nhvcw1
+! "View replies" on feed posts
+www.instagram.com##button._aswp:has(span._a9yi)
 
-! Add comment
-www.instagram.com##section.x5ur3kl.x13fuv20.x178xt8z.x1roi4f4.x2lah0s.xvs91rp.xl56j7k.x17ydfre.x1n2onr6.x10b6aqq.x1yrsyyn.x1hrcb2b.xv54qhq
+! "View all replies" buttons
+www.instagram.com##div.xwib8y2.x1y1aw1k:has-text(/View.*repl/)

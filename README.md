@@ -3,7 +3,10 @@
   Minimo
 </h1>
 
-Minimo helps you use social media wisely by filtering out distractions on your favorite apps.
+> [!WARNING]
+> THIS PROJECT IS UNDERGOING A MASSIVE CODE REFACTORING. THE CODEBASE IS UNRELIABLE AT THE MOMENT.
+
+Minimo helps you use social media wisely by filtering out distractions from your favorite apps.
 
 Lists filter content using CSS selectors. They work with any application that supports the Adblock filter syntax.
 

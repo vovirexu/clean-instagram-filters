@@ -45,7 +45,7 @@ www.instagram.com##div.x7wppnt
 www.instagram.com##div.x5yr21d.x1uhb9sk.xh8yej3
 
 ! Reels (button)
-www.instagram.com##div:nth-of-type(3) > span > div > a
+www.instagram.com##a[href="/reels/"]
 
 ! Story Viewers List (BROKEN: it also removes user lists from other parts of the app)
 ! www.instagram.com##div[aria-modal][role] > div > div > div[style] > div[style] > div > div
