@@ -9,7 +9,12 @@ www.instagram.com##[data-pagelet="story_tray"]
 !-------------------------------------------------------------------
 
 ! "Suggested for you" posts
-www.instagram.com##article:has-text("Suggested for you"):style(visibility: hidden !important; height: 0 !important; overflow: hidden !important; margin: 0 !important; padding: 0 !important;)
+www.instagram.com##span:has-text("Suggested for you"):upward(article):style(visibility: hidden !important; height: 0 !important; overflow: hidden !important; margin: 0 !important; padding: 0 !important;)
+
+!-------------------------------------------------------------------
+
+! Ads
+www.instagram.com##article:has-text("Ad"):style(visibility: hidden !important; height: 0 !important; overflow: hidden !important; margin: 0 !important; padding: 0 !important;)
 
 !-------------------------------------------------------------------
 
