@@ -21,9 +21,9 @@ A list of content-blocker filters for the Instagram web-app.
   ```
   https://raw.githubusercontent.com/vovirexu/minimo-social/refs/heads/experiment/instagram/mobile/instagram_mobile_feed_stories.txt
   ```
-  * For you:
+  * Suggested posts:
   ```
-  https://raw.githubusercontent.com/vovirexu/minimo-social/refs/heads/experiment/instagram/mobile/instagram_mobile_for_you.txt
+  https://raw.githubusercontent.com/vovirexu/minimo-social/refs/heads/experiment/instagram/mobile/instagram_mobile_suggested.txt
   ```
   * Notes:
   ```

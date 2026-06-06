@@ -9,14 +9,7 @@ www.instagram.com##[data-pagelet="story_tray"]
 !-------------------------------------------------------------------
 
 ! Suggested Posts
-! Header
-www.instagram.com##h3:has-text("Suggested Posts"):upward(3):style(height: 0 !important; overflow: hidden !important; margin: 0 !important; padding: 0 !important;)
-
-! "Suggested posts" on feed. Best implementation found
-www.instagram.com##div:has(h3:has-text("Suggested Posts")) ~ article:style(height: 0 !important; overflow: hidden !important; margin: 0 !important; padding: 0 !important;)
-
-! Loading spinner and fixes scroll bounce
-www.instagram.com##svg[aria-label="Loading..."]:upward(1):style(visibility: hidden !important; height: 0 !important; overflow: hidden !important; margin: 0 !important; padding: 0 !important;)
+www.instagram.com##article:has(span:has-text("Suggested for you")):style(visibility: hidden !important; height: 0 !important; overflow: hidden !important; margin: 0 !important; padding: 0 !important;)
 
 !-------------------------------------------------------------------
 

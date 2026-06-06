@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/vovirexu/minimo-social
 
 ! /reels feed
-www.instagram.com##main[role="main"]:matches-path(/reels/)
+www.instagram.com##main[role="main"]:matches-path(^/reels/)
 
 ! Button
 www.instagram.com##a[href="/reels/"]

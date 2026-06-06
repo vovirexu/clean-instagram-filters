@@ -1,0 +1,6 @@
+! Title: Minimo for Instagram (Mobile)
+! Description: Filter suggested posts in the Instagram mobile web-app.
+! Version: 1.0.0
+! Homepage: https://github.com/vovirexu/minimo-social
+
+www.instagram.com##article:has(span:has-text("Suggested for you")):style(visibility: hidden !important; height: 0 !important; overflow: hidden !important; margin: 0 !important; padding: 0 !important;)
