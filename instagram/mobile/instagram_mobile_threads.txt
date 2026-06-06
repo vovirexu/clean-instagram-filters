@@ -1,0 +1,10 @@
+! Title: Minimo for Instagram (Mobile)
+! Description: Filters for threads in the Instagram mobile web-app.
+! Version: 1.0.0
+! Homepage: https://github.com/vovirexu/minimo-social
+
+! Usernames
+www.instagram.com##a[href*="threads.com/@"]:upward(2)
+
+! Button
+www.instagram.com##a[href^="https://www.threads.com/?xmt="]

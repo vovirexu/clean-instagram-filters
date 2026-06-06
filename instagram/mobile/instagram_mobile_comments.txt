@@ -1,0 +1,25 @@
+! Title: Minimo for Instagram (Mobile)
+! Description: Filters for comments in the Instagram mobile web-app.
+! Version: 1.0.0
+! Homepage: https://github.com/vovirexu/minimo-social
+
+! "For you" button
+www.instagram.com##div[role="button"]:has(svg[aria-label="Down chevron icon"]):matches-path(/p/)
+
+! Comments
+www.instagram.com##div[role="button"]:has(time):matches-path(/p/)
+
+! "View all replies" button
+www.instagram.com##div.xwib8y2.x1y1aw1k:has-text(/View.*repl/)
+
+! "Add a comment..." input
+www.instagram.com##textarea[placeholder="Add a comment…"]:upward(3)
+
+! "View hidden comments" button
+www.instagram.com##[aria-label="View hidden comments"]:upward(2)
+
+! Comments on facebook
+www.instagram.com##.xq8v1hd:upward(3)
+
+! Button
+www.instagram.com##svg[aria-label="Comment"]:upward(3)
