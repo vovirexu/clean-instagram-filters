@@ -1,10 +1,10 @@
 ! Title: Minimo for Instagram (Desktop)
-! Version: 2.2.0
-! Description: Filter for notes in the Instagram desktop web-app.
+! Description: Filters for notes in the Instagram desktop web-app.
 ! Homepage: https://github.com/vovirexu/minimo-social
+! Version: 1.0.0
 
-! Notes (inbox)
-www.instagram.com##div.x1c4vz4f.x2lah0s.xhjk10j.x6ikm8r.x10wlt62.xf7dkkf.xv54qhq
+! Inbox
+www.instagram.com##div[data-pagelet="IGDInboxThreadListScrollableAreaPagelet"] > div:first-child
 
-! Notes (profile)
-www.instagram.com##div.x1vjfegm.x9a3u73
+! Profile
+www.instagram.com##div.x1vjfegm:has(div.x9a3u73)

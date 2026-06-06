@@ -1,0 +1,13 @@
+! Title: Minimo for Instagram (Desktop)
+! Description: Filter for suggested posts in the Instagram desktop web-app.
+! Version: 1.0.0
+! Homepage: https://github.com/vovirexu/minimo-social
+
+! "Suggested posts" on feed. Best implementation found
+www.instagram.com##div:has(h3:has-text("Suggested Posts")) ~ article:style(height: 0 !important; overflow: hidden !important; margin: 0 !important; padding: 0 !important;)
+
+! Header
+www.instagram.com##h3:has-text("Suggested Posts"):upward(3):style(height: 0 !important; overflow: hidden !important; margin: 0 !important; padding: 0 !important;)
+
+! Loading spinner and fixes scroll bounce
+www.instagram.com##svg[aria-label="Loading..."]:upward(1):style(visibility: hidden !important; height: 0 !important; overflow: hidden !important; margin: 0 !important; padding: 0 !important;)

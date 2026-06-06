@@ -1,10 +1,13 @@
 ! Title: Minimo for Instagram (Desktop)
-! Version: 2.2.0
-! Description: Filter for "explore" in the Instagram explore web-app.
+! Description: Filters for explore suggestions in the Instagram desktop web-app.
+! Version: 1.0.0
 ! Homepage: https://github.com/vovirexu/minimo-social
 
-! Feed
+! Suggestions
+www.instagram.com##div:has(input[aria-label="Search input"]) div[style*="--x-gridTemplateColumns"]
 
+! Loading spinner
+www.instagram.com##div:has(input[aria-label="Search input"]) div[data-visualcompletion="loading-state"]
 
-! Loading
-www.instagram.com##div.x15mokao.x1ga7v0g.x16uus16.xbiv7yw.x5o85r1.xeo4mu6.x1vz142a.x18uqkz4.x1pv78wv.xghhx3z
+! Tab selector
+www.instagram.com##div[role="tablist"].xtqikln:has(div[role="tab"][aria-haspopup="dialog"]):style(visibility: hidden !important; height: 0 !important; overflow: hidden !important; margin: 0 !important; padding: 0 !important;)

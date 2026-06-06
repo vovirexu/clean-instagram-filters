@@ -1,22 +1,37 @@
 ! Title: Minimo for Instagram (Desktop)
-! Version: 2.2.0
 ! Description: Filters for comments in the Instagram desktop web-app.
+! Version: 1.0.0
 ! Homepage: https://github.com/vovirexu/minimo-social
 
-! Full comment rows on post detail page
-www.instagram.com##body:not(:has(article)) .x78zum5.xdt5ytf.x1iyjqo2 > div > div:not([class]):has(div.x1iyjqo2.x2lwn1j.xeuugli.xdt5ytf:has(a[href*="/c/"] time))
+! "For you" button
+www.instagram.com##div[role="button"]:has(svg[aria-label="Down chevron icon"])
 
-! "Add a comment..." input
-www.instagram.com##textarea[placeholder="Add a comment…"]:upward(3)
+! Comment rows on post detail page
+www.instagram.com##body:not(:has(article)) .x78zum5.xdt5ytf.x1iyjqo2 > div > div:not([class]):is(:has(a[href*="/c/"] time), :has(img.x12ol6y4))
 
 ! Comment rows on feed
 www.instagram.com##li._a9zj:has(a[href*="/c/"])
 
+! GIF comments on feed
+www.instagram.com##li._a9zj:has(img.x12ol6y4)
+
+! "View replies" button
+www.instagram.com##button._aswp:has(span._a9yi)
+
+! "View all replies" button
+www.instagram.com##div.xwib8y2.x1y1aw1k:has-text(/View.*repl/)
+
 ! "Load more comments" icon
 www.instagram.com##svg[aria-label="Load more comments"]:upward(3)
 
-! "View replies" on feed posts
-www.instagram.com##button._aswp:has(span._a9yi)
+! "Add a comment..." input
+www.instagram.com##textarea[placeholder="Add a comment…"]:upward(3)
 
-! "View all replies" buttons
-www.instagram.com##div.xwib8y2.x1y1aw1k:has-text(/View.*repl/)
+! "View hidden comments" button
+www.instagram.com##[aria-label="View hidden comments"]:upward(2)
+
+! Comments on facebook
+www.instagram.com##.xq8v1hd:upward(3)
+
+! Button
+www.instagram.com##svg[aria-label="Comment"]:upward(3)

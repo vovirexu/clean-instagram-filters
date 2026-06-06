@@ -1,6 +1,0 @@
-! Title: Minimo for Instagram (Mobile)
-! Version: 2.2.0
-! Description: Filter for the home feed stories in the Instagram mobile web-app.
-! Homepage: https://github.com/vovirexu/minimo-social
-
-www.instagram.com##div.x1njnjl6.xvbhtw8

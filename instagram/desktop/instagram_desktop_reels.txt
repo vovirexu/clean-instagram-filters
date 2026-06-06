@@ -1,7 +1,16 @@
 ! Title: Minimo for Instagram (Desktop)
-! Version: 2.2.0
 ! Description: Filter for reels in the Instagram desktop web-app.
+! Version: 1.0.0
 ! Homepage: https://github.com/vovirexu/minimo-social
+
+! /reels feed
+www.instagram.com##section:has(div[role="toolbar"][aria-label="Reels navigation controls"])
 
 ! Button
 www.instagram.com##a[href="/reels/"]
+
+! Navigation buttons (on details)
+www.instagram.com##div[aria-label="Reels navigation controls"]
+
+! Prevents doom-scrolling. While it doesn't block scrolling down completely due to the limitations of content filters, it does make it very annoying to do so.
+www.instagram.com##div[aria-busy="false"][tabindex="-1"] > div:nth-child(n+2)

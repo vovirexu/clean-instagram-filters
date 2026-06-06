@@ -1,0 +1,19 @@
+! Title: Minimo for Instagram (Desktop)
+! Description: This filter removes ALL reels from the Instagram desktop web-app.
+! Version: 1.0.0
+! Homepage: https://github.com/vovirexu/minimo-social
+
+! /reels feed
+www.instagram.com##section:has(div[role="toolbar"][aria-label="Reels navigation controls"])
+
+! Button
+www.instagram.com##a[href="/reels/"]
+
+! Home page reels, keeps scrolling behavior 
+www.instagram.com##article:has(a[href*="/reels/"]):style(visibility: hidden !important; height: 0 !important; overflow: hidden !important; margin: 0 !important; padding: 0 !important;)
+
+! Reels in messages
+www.instagram.com##div[role="group"]:has(svg[aria-label="Clip"])
+
+! Reels detail dialog
+www.instagram.com##div[aria-modal="true"][role="dialog"]:has(div[aria-label="Video player])

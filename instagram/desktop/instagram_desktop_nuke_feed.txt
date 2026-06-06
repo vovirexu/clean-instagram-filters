@@ -1,0 +1,7 @@
+! Title: Minimo for Instagram (Desktop)
+! Description: This filter removes the home feed from the Instagram desktop web-app.
+! Homepage: https://github.com/vovirexu/minimo-social
+! Version: 1.0.0
+
+! Block entire home feed
+www.instagram.com##div:has(> div > div > article):has(> div > div[data-visualcompletion="loading-state"][role="progressbar"]):style(visibility: hidden !important; height: 0 !important; overflow: hidden !important; margin: 0 !important; padding: 0 !important;)

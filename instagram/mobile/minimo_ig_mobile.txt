@@ -1,0 +1,71 @@
+! Title: Minimo for Instagram (Mobile)
+! Description: Helps you use the Instagram mobile web-app wisely by filtering out distractions with content-blockers.
+! Version: 1.0.0
+! Homepage: https://github.com/vovirexu/minimo-social
+
+! Feed stories tray
+www.instagram.com##[data-pagelet="story_tray"]
+
+!-------------------------------------------------------------------
+
+! "For you" feed
+www.instagram.com##body:has(span:has-text("For you")) main[role="main"]
+
+!-------------------------------------------------------------------
+
+! Comments
+! "For you" button
+www.instagram.com##div[role="button"]:has(svg[aria-label="Down chevron icon"]):matches-path(/p/)
+
+! Comments
+www.instagram.com##div[role="button"]:has(time):matches-path(/p/)
+
+! "View all replies" button
+www.instagram.com##div.xwib8y2.x1y1aw1k:has-text(/View.*repl/)
+
+! "Add a comment..." input
+www.instagram.com##textarea[placeholder="Add a comment…"]:upward(3)
+
+! "View hidden comments" button
+www.instagram.com##[aria-label="View hidden comments"]:upward(2)
+
+! Comments on facebook
+www.instagram.com##.xq8v1hd:upward(3)
+
+! Button
+www.instagram.com##svg[aria-label="Comment"]:upward(3)
+
+!-------------------------------------------------------------------
+
+! Reels
+! /reels feed
+www.instagram.com##main[role="main"]:matches-path(/reels/)
+
+! Button
+www.instagram.com##a[href="/reels/"]
+
+! Prevents doom-scrolling.
+www.instagram.com##[data-reel-type="suggested"]:matches-path(/direct/)
+   
+!-------------------------------------------------------------------
+
+! Explore suggestions
+www.instagram.com##main[role="main"]:matches-path(/explore/) [data-visualcompletion="loading-state"]:upward(2)
+
+!-------------------------------------------------------------------
+
+! Notes
+! Inbox
+www.instagram.com##div[data-pagelet="IGDInboxThreadListScrollableAreaPagelet"] > div:first-child
+
+! Profile
+www.instagram.com##div.x1vjfegm:has(div.x9a3u73)
+
+!-------------------------------------------------------------------
+
+! Threads
+! Usernames
+www.instagram.com##a[href*="threads.com/@"]:upward(2)
+
+! Button
+www.instagram.com##a[href^="https://www.threads.com/?xmt="]

@@ -1,6 +1,6 @@
 ! Title: Minimo for Instagram (Desktop)
-! Version: 2.2.0
 ! Description: Filter for the home sidebar in the Instagram desktop web-app.
+! Version: 1.0.0
 ! Homepage: https://github.com/vovirexu/minimo-social
 
-www.instagram.com##div.x1dr59a3.x13vifvy.x7vhb2i.x6bx242
+www.instagram.com##div[role="button"]:has-text(/^Switch$/):upward(10)

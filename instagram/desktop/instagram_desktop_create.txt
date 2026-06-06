@@ -1,6 +1,0 @@
-! Title: Minimo for Instagram (Desktop)
-! Version: 2.2.0
-! Description: Filter for the "create" button in the Instagram desktop web-app.
-! Homepage: https://github.com/vovirexu/minimo-social
-
-www.instagram.com##div:nth-of-type(7) > div > span > div > a > div

@@ -1,7 +1,0 @@
-! Title: Minimo for Instagram (Mobile)
-! Version: 2.2.0
-! Description: Filter for reels in the Instagram mobile web-app.
-! Homepage: https://github.com/vovirexu/minimo-social
-
-! Feed/removes all video
-www.instagram.com##div.x5yr21d.x1uhb9sk.xh8yej3

@@ -1,0 +1,107 @@
+! Title: Minimo for Instagram (Desktop)
+! Description: Helps you use the Instagram desktop web-app wisely by filtering out distractions with content-blockers.
+! Version: 1.0.0
+! Homepage: https://github.com/vovirexu/minimo-social
+
+! Feed stories tray
+www.instagram.com##[data-pagelet="story_tray"]
+
+!-------------------------------------------------------------------
+
+! Suggested Posts
+! Header
+www.instagram.com##h3:has-text("Suggested Posts"):upward(3):style(height: 0 !important; overflow: hidden !important; margin: 0 !important; padding: 0 !important;)
+
+! "Suggested posts" on feed. Best implementation found
+www.instagram.com##div:has(h3:has-text("Suggested Posts")) ~ article:style(height: 0 !important; overflow: hidden !important; margin: 0 !important; padding: 0 !important;)
+
+! Loading spinner and fixes scroll bounce
+www.instagram.com##svg[aria-label="Loading..."]:upward(1):style(visibility: hidden !important; height: 0 !important; overflow: hidden !important; margin: 0 !important; padding: 0 !important;)
+
+!-------------------------------------------------------------------
+
+! Comments
+! "For you" button
+www.instagram.com##div[role="button"]:has(svg[aria-label="Down chevron icon"])
+
+! Comment rows on post detail page
+www.instagram.com##body:not(:has(article)) .x78zum5.xdt5ytf.x1iyjqo2 > div > div:not([class]):is(:has(a[href*="/c/"] time), :has(img.x12ol6y4))
+
+! Comment rows on feed
+www.instagram.com##li._a9zj:has(a[href*="/c/"])
+
+! GIF comments on feed
+www.instagram.com##li._a9zj:has(img.x12ol6y4)
+
+! "View replies" button
+www.instagram.com##button._aswp:has(span._a9yi)
+
+! "View all replies" button
+www.instagram.com##div.xwib8y2.x1y1aw1k:has-text(/View.*repl/)
+
+! "Load more comments" icon
+www.instagram.com##svg[aria-label="Load more comments"]:upward(3)
+
+! "Add a comment..." input
+www.instagram.com##textarea[placeholder="Add a comment…"]:upward(3)
+
+! "View hidden comments" button
+www.instagram.com##[aria-label="View hidden comments"]:upward(2)
+
+! Comments on facebook
+www.instagram.com##.xq8v1hd:upward(3)
+
+! Button
+www.instagram.com##svg[aria-label="Comment"]:upward(3)
+
+!-------------------------------------------------------------------
+
+! Home sidebar
+www.instagram.com##div[role="button"]:has-text(/^Switch$/):upward(10)
+
+!-------------------------------------------------------------------
+
+! Reels
+! /reels feed
+www.instagram.com##section:has(div[role="toolbar"][aria-label="Reels navigation controls"])
+
+! Button
+www.instagram.com##a[href="/reels/"]
+
+! Navigation buttons (on details)
+www.instagram.com##div[aria-label="Reels navigation controls"]
+
+! Prevents doom-scrolling. While it doesn't block scrolling down completely due to the limitations of content filters, it does make it very annoying to do.
+www.instagram.com##div[aria-busy="false"][tabindex="-1"] > div:nth-child(n+2)
+
+!-------------------------------------------------------------------
+
+! Explore
+! Suggestions
+www.instagram.com##div:has(input[aria-label="Search input"]) div[style*="--x-gridTemplateColumns"]
+
+! Loading spinner
+www.instagram.com##div:has(input[aria-label="Search input"]) div[data-visualcompletion="loading-state"]
+
+! Tab selector
+www.instagram.com##div[role="tablist"].xtqikln:has(div[role="tab"][aria-haspopup="dialog"]):style(visibility: hidden !important; height: 0 !important; overflow: hidden !important; margin: 0 !important; padding: 0 !important;)
+
+!-------------------------------------------------------------------
+
+! Notes
+! Inbox
+www.instagram.com##div[data-pagelet="IGDInboxThreadListScrollableAreaPagelet"] > div:first-child
+
+! Profile
+www.instagram.com##div.x1vjfegm:has(div.x9a3u73)
+
+!-------------------------------------------------------------------
+
+! Threads
+www.instagram.com##a[href*="threads.com/@"]:upward(2)
+
+!-------------------------------------------------------------------
+
+! Misc
+! Also from Meta
+www.instagram.com##svg[aria-label="Also from Meta"]:upward(4)

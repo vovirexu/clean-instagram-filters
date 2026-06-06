@@ -1,7 +1,0 @@
-! Title: Minimo for Instagram (Mobile)
-! Version: 2.2.0
-! Description: Filter for the reels button in the Instagram mobile web-app.
-! Homepage: https://github.com/vovirexu/minimo-social
-
-! Button
-www.instagram.com##a[href="/reels/"]

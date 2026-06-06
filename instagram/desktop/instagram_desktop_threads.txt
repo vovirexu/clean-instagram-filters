@@ -1,0 +1,6 @@
+! Title: Minimo for Instagram (Desktop)
+! Description: Filte for threads in the Instagram desktop web-app.
+! Version: 1.0.0
+! Homepage: https://github.com/vovirexu/minimo-social
+
+www.instagram.com##a[href*="threads.com/@"]:upward(2)
