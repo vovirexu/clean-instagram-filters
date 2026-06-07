@@ -8,8 +8,8 @@ www.instagram.com##[data-pagelet="story_tray"]
 
 !-------------------------------------------------------------------
 
-! Suggested Posts
-www.instagram.com##article:has(span:has-text("Suggested for you")):style(visibility: hidden !important; height: 0 !important; overflow: hidden !important; margin: 0 !important; padding: 0 !important;)
+! "For you" feed
+www.instagram.com##div:has(> div > div > article):has(> div > div[data-visualcompletion="loading-state"][role="progressbar"]):matches-path(/\/\?variant=home/):style(visibility: hidden !important; height: 0 !important; overflow: hidden !important; margin: 0 !important; padding: 0 !important;)
 
 !-------------------------------------------------------------------
 
