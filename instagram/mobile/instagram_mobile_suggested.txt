@@ -3,4 +3,12 @@
 ! Version: 1.0.0
 ! Homepage: https://github.com/vovirexu/minimo-social
 
-www.instagram.com##article:has(span:has-text("Suggested for you")):style(visibility: hidden !important; height: 0 !important; overflow: hidden !important; margin: 0 !important; padding: 0 !important;)
+! Instagram appears to randomly switch how it displays suggested posts on the main feed, these filters tackle all the methods known to date.
+! "Suggested for you" posts
+www.instagram.com##span:has-text("Suggested for you"):upward(article):style(visibility: hidden !important; height: 0 !important; overflow: hidden !important; margin: 0 !important; padding: 0 !important;)
+
+! Suggested header
+www.instagram.com##span:has-text("Suggested Posts"):style(visibility: hidden !important; height: 0 !important; overflow: hidden !important; margin: 0 !important; padding: 0 !important;)
+
+! Suggested section posts
+www.instagram.com##span:has-text("Suggested Posts"):upward(3) ~ article:style(visibility: hidden !important; height: 0 !important; overflow: hidden !important; margin: 0 !important; padding: 0 !important;)
