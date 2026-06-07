@@ -8,17 +8,8 @@ www.instagram.com##[data-pagelet="story_tray"]
 
 !-------------------------------------------------------------------
 
-! For you
-! "For you" feed
-www.instagram.com#?#:root:has(h1._ab1a:has-text("For you")) article:style(visibility: hidden !important; height: 0 !important; overflow: hidden !important; margin: 0 !important; padding: 0 !important;)
-
-! Distractions
-www.instagram.com##span:has-text("Suggested Posts"):upward(3):style(visibility: hidden !important; height: 0 !important; overflow: hidden !important; margin: 0 !important; padding: 0 !important;)
-
-!-------------------------------------------------------------------
-
-! Ads
-www.instagram.com##article:has-text("Ad"):style(visibility: hidden !important; height: 0 !important; overflow: hidden !important; margin: 0 !important; padding: 0 !important;)
+! "For you" feed: Instagram appears to randomly switch how it displays suggested posts on the main feed, nuking the feed entirely is the best option available.
+www.instagram.com##div[style*="--x-maxWidth:100%"][style*="--x-width:100vw"]:style(visibility: hidden !important; height: 0 !important; overflow: hidden !important; margin: 0 !important; padding: 0 !important;)
 
 !-------------------------------------------------------------------
 
