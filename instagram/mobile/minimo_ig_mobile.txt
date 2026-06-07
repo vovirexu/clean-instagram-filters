@@ -8,15 +8,12 @@ www.instagram.com##[data-pagelet="story_tray"]
 
 !-------------------------------------------------------------------
 
-! Suggested posts: Instagram appears to randomly switch how it displays suggested posts on the main feed, these filters tackle all the methods known to date.
-! "Suggested for you" posts
-www.instagram.com##span:has-text("Suggested for you"):upward(article):style(visibility: hidden !important; height: 0 !important; overflow: hidden !important; margin: 0 !important; padding: 0 !important;)
+! For you
+! "For you" feed
+www.instagram.com#?#:root:has(h1._ab1a:has-text("For you")) article:style(visibility: hidden !important; height: 0 !important; overflow: hidden !important; margin: 0 !important; padding: 0 !important;)
 
-! Suggested header
-www.instagram.com##span:has-text("Suggested Posts"):style(visibility: hidden !important; height: 0 !important; overflow: hidden !important; margin: 0 !important; padding: 0 !important;)
-
-! Suggested section posts
-www.instagram.com##span:has-text("Suggested Posts"):upward(3) ~ article:style(visibility: hidden !important; height: 0 !important; overflow: hidden !important; margin: 0 !important; padding: 0 !important;)
+! Distractions
+www.instagram.com##span:has-text("Suggested Posts"):upward(3):style(visibility: hidden !important; height: 0 !important; overflow: hidden !important; margin: 0 !important; padding: 0 !important;)
 
 !-------------------------------------------------------------------
 
